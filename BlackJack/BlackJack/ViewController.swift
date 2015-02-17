@@ -112,6 +112,7 @@ class ViewController: UIViewController {
     @IBAction func double(sender: UIButton) {
         if(!player.putMoney(player.betNum)){
             steps.text="You have not enough money!"
+            return
         }else{
             updateBankAndBet()
             steps.text="Double!"
