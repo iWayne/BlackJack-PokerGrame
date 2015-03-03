@@ -90,6 +90,8 @@ class GameViewController: UIViewController {
             whoseTurn = 0
             playersLabel[whoseTurn].backgroundColor = UIColor.brownColor()
             status.text = "Stand or hit?"
+            standButton.hidden = false
+            hitButton.hidden = false
             }
         }
     }
@@ -192,6 +194,7 @@ class GameViewController: UIViewController {
         while players[numberOfPlayer].hands[0].score<16{
             players[numberOfPlayer].hands[0].cards.append(shoe.getOneCard())
         }
+        updateDealer()
     }
     
     func hiddenMoneyButton(hidden: Bool){
@@ -215,6 +218,8 @@ class GameViewController: UIViewController {
     func updateDealer(){
         if(players[numberOfPlayer].hands[0].cards.count>0){
         dealerShowCard.text = players[numberOfPlayer].hands[0].cards[0].getCardString()+players[numberOfPlayer].hands[0].cards[1].getCardString()
+        }else {
+            dealerShowCard.text = ""
         }
         var countOfCard = players[numberOfPlayer].hands[0].cards.count
         var hiddenCards:String = ""
