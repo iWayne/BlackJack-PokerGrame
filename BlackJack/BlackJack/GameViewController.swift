@@ -295,6 +295,8 @@ class GameViewController: UIViewController {
         playersScore = [player1Score, player2Score, player3Score, player4Score]
         hiddenPlayer()
         initalDesk()
+        standButton.hidden = true
+        hitButton.hidden = true
         status.text = String("Player 1, Plcase bet")
        
     }
