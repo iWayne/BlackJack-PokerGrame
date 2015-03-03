@@ -2,7 +2,7 @@
 //  BlackJackTests.swift
 //  BlackJackTests
 //
-//  Created by Shan Shawn on 3/2/15.
+//  Created by Shan Shawn on 2/13/15.
 //  Copyright (c) 2015 Shan Shawn. All rights reserved.
 //
 
