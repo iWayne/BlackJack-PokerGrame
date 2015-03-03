@@ -93,7 +93,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="restart:" destination="BPL-Aa-LfL" eventType="touchUpInside" id="MWg-nr-vXI"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="cWc-PG-uBs"/>
                                 </connections>
                             </button>

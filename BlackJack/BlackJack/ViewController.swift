@@ -28,11 +28,7 @@ class ViewController: UIViewController {
         myData.numberOfplayer = Int(playerSlider.value)
     }
     @IBAction func startGame(sender: UIButton) {
-        /*
-        let myData = Singleton.sharedInstance
-        myData.numberOfDecks = Int(deckSlider.value)
-        myData.numberOfplayer = Int(playerSlider.value)
-        */
+
     }
     
     override func viewDidLoad() {
