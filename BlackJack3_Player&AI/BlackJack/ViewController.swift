@@ -247,6 +247,7 @@ class ViewController: UIViewController {
         for cardView in drawnCards{
             cardView.removeFromSuperview()
         }
+        cardAreaX = [0,0,0]
     }
     
     func initalDesk(){
