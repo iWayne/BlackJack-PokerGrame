@@ -44,11 +44,17 @@ __What I do__
 
 ____
 
+###Screenshots
+
+![ScreenShot](./Screenshots/Game.jpg "Main View")
+
+____
+
 ###ENVIRONMENT
 
  * iOS: 8.2
  
- * Swift: 1.1
+ * Swift: 1.1 (Above 1.1 may have errors)
 
 ____
 
