@@ -1,4 +1,4 @@
-_Last Updated: Fri, Sept 18th, 2015 @ 9:45P_
+_Last Updated: Fri, Sept 18th, 2015 @ 10:25P_
 ## Black Jack (Poker Game)
 
 
@@ -46,7 +46,7 @@ ____
 
 ###ENVIRONMENT
 
- * iOS: 8.4
+ * iOS: 8.2
  
  * Swift: 1.1
 
