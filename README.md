@@ -44,6 +44,14 @@ __What I do__
 
 ____
 
+###ENVIRONMENT
+
+ * iOS: 8.4
+ 
+ * Swift: 1.1
+
+____
+
 ###NEXT STEP
 
  * Network communication possilbe. Players can play together via network or bluetooth.
