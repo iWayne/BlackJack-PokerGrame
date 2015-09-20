@@ -66,6 +66,12 @@ ____
 
 ____
 
+###AUTHOR
+
+ - [Wayne/ Wei Shan](https://github.com/ishawn)
+
+____
+
 ###REFERENCE
 
  * [Game Rule] (http://wizardofodds.com/games/blackjack/)
